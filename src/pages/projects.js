@@ -5,7 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import proj1 from "../../public/images/projects/ai-image-recognition.jpg";
+import proj1 from "../../public/images/projects/face_recog.png";
+import proj2 from "../../public/images/projects/real_face_recog.jpeg";
+import proj3 from "../../public/images/projects/CRM-system.jpeg";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -133,62 +135,33 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Elastic Web Application"
-                summary="A web application that uses AWS EC2, SQS and S3 to provide image recognition as a service to users."
-                link=""
-                type="Image Recognition as a service"
+                title="Facial Recognition Using AWS Cloud"
+                summary="A dynamic auto-scaling web application built using AWS resources to provide image recognition as a service to users."
+                link="https://github.com/srikanth100/CC-546-Project"
+                type=""
                 img={proj1}
                 github="https://github.com/srikanth100/CC-546-Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="PROJECT 1"
-                summary="A feature-rich project in which I can do something and showcase something!"
-                link="/"
-                type="Featured project"
-                img={proj1}
-                github="/"
+                title="Real-time Identification Using AWS and IOT"
+                summary="An application to provide real-time face recognition using Raspberry PI device and AWS resources (Lambda, DynamoDB and S3)."
+                link="https://github.com/srikanth100/CC-546-Project-2"
+                type=""
+                img={proj2}
+                github="https://github.com/srikanth100/CC-546-Project-2"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="PROJECT 1"
-                summary="A feature-rich project in which I can do something and showcase something!"
-                link="/"
-                type="Featured project"
-                img={proj1}
-                github="/"
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                title="PROJECT 1"
-                summary="A feature-rich project in which I can do something and showcase something!"
-                link="/"
-                type="Featured project"
-                img={proj1}
-                github="/"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="PROJECT 1"
-                summary="A feature-rich project in which I can do something and showcase something!"
-                link="/"
-                type="Featured project"
-                img={proj1}
-                github="/"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="PROJECT 1"
-                summary="A feature-rich project in which I can do something and showcase something!"
-                link="/"
-                type="Featured project"
-                img={proj1}
-                github="/"
+                title="A CRM application built using Django"
+                summary="A CRM application that enables registered users to login, add records, update records and delete records. 
+                User information can be viewed through the dashboard after logging in."
+                link="https://github.com/srikanth100/django-crm"
+                type=""
+                img={proj3}
+                github="https://github.com/srikanth100/django-crm"
               />
             </div>
           </div>

@@ -46,7 +46,7 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Master of Computer Science"
+            type="M.S. in Computer Science"
             time="Aug 2021 - May 2023"
             place="Arizona State University"
             info="Relevant Coursework: Foundation of Algorithms, Cloud Computing, Data Processing at Scale, 

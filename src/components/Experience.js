@@ -67,9 +67,9 @@ const Experience = () => {
             companyLink="https://tomnet-utc.engineering.asu.edu"
             time="Aug 2022 - May 2023"
             address="Tempe, Arizona, United States"
-            work1="• Designed a dynamic visualization application for the American Time Use Survey (ATUS) dataset 
-            using React, Typescript, CSS and d3.js."
-            work2="• Refactored and published a synthetic population generator framework built using Python."
+            work1="• Designed and developed an interactive application to visualize wellbeing across population subgroups 
+                     using the American Time Use Survey (ATUS) dataset."
+            work2="• Refactored and maintained a synthetic population generator framework built using Python."
           />
           <Details
             position="Software Engineering Intern"
@@ -77,9 +77,9 @@ const Experience = () => {
             companyLink="https://www.apple.com"
             time="May 2022 - Aug 2022"
             address="Cupertino, California, United States"
-            work1="• Efficiently transitioned Jenkins CI/CD infrastructure from bare-metal servers to Kubernetes, 
-            resulting in enhanced operational efficiency."
-            work2="• Streamlined job execution by automating linkage between Jenkins and Kubernetes using Python."
+            work1="• Transitioned CI/CD infrastructure (Jenkins) from  bare-metal servers to ACI Kube (Kubernetes), 
+                     enhancing operational efficiency."
+            work2="• Created specialized Helm charts for the deployment of stateful Jenkins worker nodes, optimizing the execution of CI/CD jobs."
           />
           <Details
             position="Member of Technical Staff - 2"
@@ -87,8 +87,8 @@ const Experience = () => {
             companyLink="https://www.netskope.com"
             time="Apr 2021 - Jul 2021"
             address="Bengaluru, Karnataka, India"
-            work1="• Owner of the Python API integration for O365 Outlook, built features and optimized code with 
-            100% unit test coverage."
+            work1="• Assumed ownership of Netskope's API driven service for O365 Suite, responsible for end-to-end 
+            development and delivery of security features such as DLP scanning and threat protection across apps."
             work2="• Engineered microservices to manage high-volume push notifications from SaaS vendors, utilizing 
             Kafka for efficient staging, and Celery with Redis for distributed, synchronous notification processing."
           />
@@ -98,10 +98,21 @@ const Experience = () => {
             companyLink="https://www.netskope.com"
             time="July 2019 - Mar 2021"
             address="Bengaluru, Karnataka, India"
-            work1="• Improved end-to-end processing time by a factor of 5 in email processing through API call 
-            reduction and rate limit management, thereby optimizing overall system functionality."
-            work2="• Contributed to the design and development of a robust microservice, aimed at securing files 
-            and folders by implementing data loss prevention (DLP) policies."
+            work1="• Achieved significant improvements in end-to-end notification processing time by optimizing API calls 
+            and implementing efficient rate-limiting strategies across multiple SaaS platforms."
+            work2="• Collaborated with experienced engineers to design and deploy a resilient, scalable, and distributed 
+            data pipeline, aimed at safeguarding sensitive data through policy-based controls across multiple SaaS platforms."
+          />
+          <Details
+            position="Software Engineer Intern"
+            company="Netskope"
+            companyLink="https://www.netskope.com"
+            time="Jan 2019 - Jun 2019"
+            address="Bengaluru, Karnataka, India"
+            work1="• Worked closely with UI/UX designers for feature development, QA teams for comprehensive testing, and SRE 
+            teams for root cause analysis and debugging of production issues."
+            work2="• Implemented a framework to detect changes in API schemas, scripts to list files and folders and 
+            scan mailboxes through asynchronous processing and concurrent execution using threads."
           />
         </ul>
       </div>

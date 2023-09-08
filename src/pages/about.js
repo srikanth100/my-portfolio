@@ -27,28 +27,28 @@ const about = () => {
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-4 flex flex-col items-start justify-start text-justify md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                Biography
+                Bio
               </h2>
               <p className="font-medium">
-                I'm Srikanth, a polyglot software developer with over 3 years of
-                experience in developing distributed, scalable and reliable
+                My name is Srikanth. I am a software engineer with over 3 years
+                of experience in developing distributed, scalable and reliable
                 systems.
               </p>
               <p className="my-4 font-medium">
-                I began my career initially with Python, delving into web
-                development, leveraging the Flask framework to craft robust,
-                scalable back-end solutions. Soon I was able to expand my
-                repertoire to include Java, adapting quickly and gaining
+                I began my career initially developing programs using Python,
+                delving into web development, leveraging the Flask framework to
+                craft robust, scalable back-end solutions. Soon, I was able to
+                expand my skills to include Java, adapting quickly and gaining
                 proficiency in Spring Boot and related frameworks to create
                 stand-alone, production-grade applications.
               </p>
               <p className="my-4 font-medium">
-                I also worked comprehensively with C++ and C, building several
+                I worked with C++ and C across several domains, building several
                 projects and solving problems to gain an in-depth understanding
-                of lower-level constructs. Simultaneously, I also cultivated an
-                understanding of front-end development, learning and applying
-                key frameworks like React and Next.js along with HTML, CSS and
-                Javascript to create intuitive, user-centered interfaces.
+                of lower-level constructs. I also cultivated an understanding of
+                front-end development, learning and applying key frameworks like
+                React and Next.js along with HTML, CSS and Javascript to create
+                intuitive, user-centered interfaces.
               </p>
               <p className="font-medium">
                 Through my extensive and diverse experiences, I seek to become a
